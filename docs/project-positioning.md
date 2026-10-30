@@ -1,30 +1,30 @@
-# 專題定位：先把一件事情做好
+# 研究定位與現有工具比較
 
-正式名稱：**MarVoiReflex：結合 Agentic AI 的數位行銷工作流程語音助理**。
+專題名稱：**MarVoiReflex：結合 Agentic AI 的數位行銷工作流程語音助理**。
 
-主要使用者是小型商家的社群行銷人員。核心工作是每週準備社群貼文時，把促銷圖片、文字稿和成效截圖整理好。暫時不把所有學生、行政人員與 Windows 使用者都當成研究對象。
+本研究以小型商家的社群行銷人員為主要使用者，聚焦每週社群貼文的素材準備，包含活動圖片、文案與成效截圖。系統接受中文語音或文字需求，提供搜尋、分類預覽、操作確認與結果驗證。
 
-一句白話：「用中文交代整理素材，電腦先給你看，再等你同意才搬檔案。」
+## 需求假設
 
-## 要解決的問題，先當作假設
+素材分散、重複搜尋、工具切換與活動檔案分類錯誤，是本研究預計透過訪談確認的問題。訪談對象為6–8位具有社群行銷或小型商家營運經驗的人員；分析內容包含前三項常見問題、發生頻率與處理時間。
 
-素材散落、反覆找檔案、工具切換、分錯活動，可能讓行銷準備變慢。這是待確認的假設，**不是已訪談得到的結論**。將訪談 6–8 位有相關經驗的人，記錄最常見的三個問題、每週幾次、每次幾分鐘。
+目前需求假設尚待訪談驗證。
 
-## 與現有工具怎麼比
+## 現有工具比較
 
-| 工具 | 官方已提供的能力 | 本研究要比較什麼 |
+| 工具 | 官方能力 | 本研究比較項目 |
 |---|---|---|
-| Windows Voice Access | 語音操作與輸入；官方列有繁體中文台灣、簡體中文等語言 | 同一個行銷素材任務，需要幾次口令、多少時間、出錯怎麼恢復 |
-| Power Automate Desktop | 預建動作、錄製操作、檔案與資料夾自動化 | 建立／修改流程的成本，以及新活動是否需要重新設定 |
-| Power Automate Desktop 的 Copilot | 官方文件另有自然語言建立流程；所查文件標為預覽、英文最佳化，並受帳號／地區限制 | 在實際可用版本與帳號下公平比較，不說它只有固定指令 |
-| MarVoiReflex 原型 | 本機中文輸入、限制範圍的意圖規劃、預覽／按鍵確認／核對 | 預期把單一行銷場景做得容易理解、容易檢查；效益仍須測試 |
+| Windows Voice Access | 語音操作與輸入，支援繁體中文台灣等語言 | 素材任務的口令數、完成時間、重試及錯誤恢復 |
+| Power Automate Desktop | 預建動作、流程錄製、檔案與資料夾自動化 | 流程設定成本、活動變更時的調整方式 |
+| Power Automate Desktop Copilot | 自然語言建立流程；所查文件標示為預覽、英文最佳化，受帳號與地區限制 | 實際版本與帳號環境下的操作表現 |
+| MarVoiReflex | 本機中文輸入、結構化任務規劃、預覽確認及結果核對 | 限定行銷場景下的可用性、完成率、效率與安全性 |
 
-不能把「會中文」當成唯一創新，也不能宣稱現有工具完全沒有多步驟能力。研究重點是**在明確任務範圍內，把需求轉成可檢查的步驟，並驗證實際結果**。目前是有規則與安全控制器的受限 Agent，不是任意操作整台電腦的自主代理。
-
-來源（查閱日 2026-10-31）：[Voice Access 語言](https://support.microsoft.com/en-us/accessibility/windows/voice-access/set-up-voice-access)、[桌面流程](https://learn.microsoft.com/en-us/power-automate/desktop-flows/introduction)、[Copilot 建立桌面流程](https://learn.microsoft.com/en-us/power-automate/desktop-flows/copilot-in-power-automate-for-desktop)。這是文件比較，尚未完成競品實測。
+比較來源為官方文件，查閱日2026-10-31：[Voice Access](https://support.microsoft.com/en-us/accessibility/windows/voice-access/set-up-voice-access)、[桌面流程](https://learn.microsoft.com/en-us/power-automate/desktop-flows/introduction)、[桌面流程 Copilot](https://learn.microsoft.com/en-us/power-automate/desktop-flows/copilot-in-power-automate-for-desktop)。競品實測列於後續研究。
 
 ## 研究目標與預期貢獻
 
-完成能透過中文語音整理行銷素材的 Windows 原型；限制為開指定工具、搜尋／分類素材、預覽／確認檔案操作。比較人工與助理操作的完成率、時間、分類正確率、步驟數、滿意度及安全性，不靠功能數量證明有用。
+完成可透過中文語音整理行銷素材的 Windows AI Agent 原型。核心範圍為指定工具啟動、素材搜尋與分類，以及檔案操作預覽與確認。
 
-五個關鍵字：**數位行銷、中文語音、AI Agent、任務規劃、安全確認**。
+主要系統設計為可檢查的多步驟規劃與執行後驗證。研究以任務完成率、作業時間、分類正確率、操作步驟、使用者滿意度及安全性評估成效。
+
+關鍵字：**數位行銷、中文語音、AI Agent、任務規劃、安全確認**。

@@ -1,8 +1,8 @@
 # 參考資料
 
-格式：作者／組織（年份或未標示）。標題。網址。查閱日統一2026-10-31。現況比較以官方文件為準，不把文件描述當成本專題已實測。
+格式：作者／組織（年份或未標示）。標題。網址。查閱日統一2026-10-31。現有工具比較採官方文件；實測結果另列於驗證紀錄。
 
-1. 戴敏育（2026）。數位行銷畢業專題指導建議。來源：使用者轉貼的教授信件；未公開教授私人Email或原始信件檔。
+1. 戴敏育（2026）。數位行銷畢業專題指導建議。專題指導紀錄。
 2. 戴敏育（2026）。Course instruction (Fall 2026): Agentic AI Innovative Applications，第10–13頁。[課程簡報指引](https://drive.google.com/file/d/1s6wkJIULlJHknoELVIFMi5XBsE9Rpsbp/view)。僅引用並依欄位要求製作，不重新上傳課程PDF。
 3. Microsoft（未標示）。[Set up voice access](https://support.microsoft.com/en-us/accessibility/windows/voice-access/set-up-voice-access)。
 4. Microsoft（2026）。[Introduction to desktop flows](https://learn.microsoft.com/en-us/power-automate/desktop-flows/introduction)。
@@ -14,4 +14,4 @@
 10. 國立臺北大學（未標示）。[校方SVG識別圖](https://new.ntpu.edu.tw/assets/logo/ntpu.svg)。原圖未改形，權利屬校方。
 11. Google Fonts（未標示）。Noto Sans TC，SIL Open Font License；文字授權見ui/NotoSansTC-OFL.txt。
 
-本地工程證據：docs/evidence/native-compiled-20261031.json（既有打包版17項特定檢查），不是獨立使用者研究或8GB實機驗證。
+工程驗證紀錄：docs/evidence/native-compiled-20261031.json（既有打包版17項特定檢查），適用範圍為工程驗證。使用者研究及8GB實機驗證另列於研究規劃。

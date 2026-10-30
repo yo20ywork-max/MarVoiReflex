@@ -11,8 +11,8 @@ check(len(cases)==50,'Expected 50 planned cases')
 check(collections.Counter(x['category'] for x in cases)=={'基本工具操作':10,'行銷素材整理':20,'多步驟任務':10,'安全與異常':10},'Case category totals differ')
 check(len({x['id'] for x in cases})==50,'Duplicate case IDs')
 check(all(x['status']=='待執行' and not x['actual'] for x in cases),'Unexecuted cases must not claim results')
-req=list(csv.DictReader((ROOT/'docs/professor-requirements.csv').open(encoding='utf-8-sig')))
-check(len(req)==60 and len({x['id'] for x in req})==60,'Expected 60 distinct professor requirements')
+req=list(csv.DictReader((ROOT/'docs/requirements.csv').open(encoding='utf-8-sig')))
+check(len(req)==60 and len({x['id'] for x in req})==60,'Expected 60 distinct research requirements')
 for row in req:check((ROOT/row['document']).is_file(),'Requirement missing document: '+row['id'])
 
 links=0
@@ -60,6 +60,6 @@ if deck.exists():
         check(len(slides)==24,'Expected 24 deck slides')
         check(z.testzip() is None,'PPTX CRC failed')
 else:errors.append('Revised deck is missing')
-summary={'pass':not errors,'planned_cases':len(cases),'professor_requirements':len(req),'python_sources_checked':len(pyfiles),'local_links_checked':links,'models_started':False,'physical_8GB_verified':False,'errors':errors}
+summary={'pass':not errors,'planned_cases':len(cases),'research_requirements':len(req),'python_sources_checked':len(pyfiles),'local_links_checked':links,'models_started':False,'physical_8GB_verified':False,'errors':errors}
 print(json.dumps(summary,ensure_ascii=False,indent=2))
 raise SystemExit(0 if not errors else 1)

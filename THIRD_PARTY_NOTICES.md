@@ -1,11 +1,11 @@
 # 第三方來源與授權
 
-本倉庫沿用原始專案 LICENSE，不因公開上傳自動變成開源授權。
+原始程式授權條款見 LICENSE；第三方元件及識別素材依各自授權使用。
 
 | 元件 | 本次用途 | 來源／授權紀錄 |
 |---|---|---|
 | Noto Sans TC | 中英共用字型 | ui/NotoSansTC-OFL.txt；SIL OFL 1.1 |
-| 國立臺北大學識別圖 | 使用者指定的專題展示識別 | https://new.ntpu.edu.tw/assets/logo/ntpu.svg；校方原圖未改形；商標及識別權利屬校方，非專題團隊自製或背書證明 |
+| 國立臺北大學識別圖 | 專題展示識別 | https://new.ntpu.edu.tw/assets/logo/ntpu.svg；原始圖形；商標及識別權利屬校方 |
 | MiniCPM5-2B | 外部本機模型，權重不在本倉庫 | https://huggingface.co/openbmb/MiniCPM5-2B；分發權重時沿用該版本模型卡與必要告知 |
 | llama.cpp | CPU 推論，二進位不在本倉庫 | https://github.com/ggml-org/llama.cpp/blob/master/LICENSE |
 | Desktop Commander | 本機 MCP 0.3.1，套件不在本倉庫 | https://github.com/wonderwhy-er/DesktopCommanderMCP；依安裝版本 LICENSE，與 remote-desktop-commander 分開記錄 |
