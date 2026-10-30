@@ -1,0 +1,32 @@
+# Local state, credentials and recordings
+.local-data/
+Data*/
+app-link.json
+.env
+.env.*
+!.env.example
+*.log
+*.jsonl
+*.wav
+*.mp3
+*.webm
+connection.json
+bridge-state.json
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+build/
+dist/
+.test-output/
+# Large third-party runtime assets are distributed separately
+assets/
+*.gguf
+*.bin
+*.exe
+*.dll
+*.pyd
+*.zip
+*.7z
+.DS_Store
+Thumbs.db

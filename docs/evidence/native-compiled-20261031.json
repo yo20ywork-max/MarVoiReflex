@@ -1,0 +1,135 @@
+{
+  "checks": [
+    {
+      "name": "Compiled native window and client initialized",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native title bar is absent and 28px region is applied",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Approved UI is served in native mode",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Existing CPU model and MCP ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Model is explicitly CPU only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Native renderer disables GPU acceleration",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Unauthenticated local calls rejected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Cross-origin controls rejected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Unknown window actions rejected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Invalid resize sizes rejected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Real local chat returns a response",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Only four isolated test assets created",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Real task produces a pending preview",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Preview does not move files",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Typed/spoken confirmation cannot bypass screen confirmation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Cancellation keeps all original files",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Packaged CPU ASR and Chinese voice initialize without microphone capture",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "exe_sha256": "6d6c2d79890254f402e12792fda957f5f43924201b18e8ce48a3def8ee0d1faf",
+  "UI_sha256": "bdc58cfd4bda971127faa6ddb9950ed6f68aa346fdc658f32a91e13efd500a33",
+  "physical_microphone_accessed": false,
+  "desktop_input_automated": false,
+  "host_RAM_GiB": 31.76,
+  "physical_8GB_verified": false,
+  "startup_s": 4.133597899999586,
+  "native_shell": {
+    "host": "WebView2",
+    "frameless": true,
+    "radius_DIP": 28,
+    "ready": true,
+    "error": null,
+    "maximized": false,
+    "CPU_only": true,
+    "native_border": "None",
+    "region_applied": true,
+    "corner_cutout": true,
+    "width": 1104,
+    "height": 761,
+    "dpi": 96,
+    "client_ready": true,
+    "client_components": {
+      "controls": true,
+      "composer": true,
+      "sidebar": true,
+      "voice": true,
+      "native_header": true
+    }
+  },
+  "chat": {
+    "text": "你好！",
+    "elapsed_s": 0.7780050999936066
+  },
+  "task": {
+    "status": "preview",
+    "items": 2,
+    "elapsed_s": 4.4295522999964305
+  },
+  "workspace_unchanged_after_tests": true,
+  "success": true,
+  "process_stopped": true,
+  "at": 1793402341.782344,
+  "source_release": "native-compiled-20261031-071846",
+  "scope": "Existing delivered EXE, not a new build of this repository; local isolated fixture, no physical 8GB verification",
+  "sanitized": true
+}

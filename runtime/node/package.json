@@ -1,0 +1,10 @@
+{
+  "name": "marvoireflex-local-tools",
+  "private": true,
+  "type": "module",
+  "description": "Install into assets/node; this is the local stdio MCP server, not the remote OAuth service.",
+  "dependencies": {
+    "@wonderwhy-er/desktop-commander": "0.3.1",
+    "@modelcontextprotocol/sdk": "1.32.1"
+  }
+}

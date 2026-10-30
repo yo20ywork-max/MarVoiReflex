@@ -1,0 +1,10 @@
+# Windows x64 / Python 3.12. Versions recorded from the delivered build.
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+numpy==1.26.4
+opencc-python-reimplemented==0.1.7
+psutil==7.2.2
+requests==2.34.2
+pywin32==311
+pywebview==6.2.1
+pythonnet==3.2.1

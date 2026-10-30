@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="light">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta http-equiv="Content-Security-Policy" content="__CSP__"><title>MarVoiReflex</title><link rel="icon" href="__ICON_URI__"><style>__STYLE__</style></head>
+<!-- Logo: 國立臺北大學 https://new.ntpu.edu.tw/assets/logo/ntpu.svg ; original SVG embedded without modification. -->
+<body>
+<main class="stage">
+ <section class="window expanded" id="window" aria-label="MarVoiReflex">
+  <aside class="rail" id="sidebar" aria-label="工作區導覽">
+   <a class="rail-brand" href="#" id="brandHome" aria-label="MarVoiReflex"><img src="__ICON_URI__" alt="國立臺北大學校徽" title="國立臺北大學校徽"></a>
+   <nav class="rail-nav" aria-label="主要功能">
+    <button id="chatTab" class="rail-button" data-pane="chat" aria-label="聊天" aria-selected="true" aria-expanded="false" aria-controls="libraryPanel"><span data-icon="chat"></span></button>
+    <button id="taskTab" class="rail-button" data-pane="task" aria-label="任務" aria-selected="false" aria-expanded="false" aria-controls="libraryPanel"><span data-icon="folder"></span></button>
+    <button id="callTab" class="rail-button" data-pane="call" aria-label="通話" aria-selected="false" aria-expanded="false" aria-controls="libraryPanel"><span data-icon="phone"></span><i class="call-live-dot" aria-hidden="true"></i></button>
+   </nav>
+   <div class="rail-bottom"><button id="settingsTab" class="rail-button" data-pane="settings" aria-label="設定" aria-expanded="false" aria-controls="libraryPanel"><span data-ui-icon="settings"></span></button><span class="preview-pill" data-i18n="label">預覽</span></div>
+  </aside>
+
+  <div class="reading-surface" id="readingSurface">
+   <header class="header"><div class="wordmark" hidden>MarVoiReflex</div><span class="header-separator" aria-hidden="true" hidden>/</span><button id="contextOpen" class="page-button" aria-controls="libraryPanel" aria-expanded="false" hidden><span id="pageTitle">聊天</span><span data-ui-icon="chevronDown"></span></button><div class="drag" aria-hidden="true" hidden></div><span class="app-state" id="appState" hidden><i></i><span id="appStateText">就緒</span></span><div class="tools"><button class="icon-btn" id="minimize" aria-label="最小化" title="最小化"></button><button class="icon-btn" id="maximize" hidden aria-label="最大化或還原" title="最大化或還原"><span data-icon="maximize"></span></button><button class="icon-btn" id="close" aria-label="關閉" title="關閉"></button></div></header>
+   <div class="workspace" id="workspace">
+    <section id="chatPage" class="page" role="region" aria-labelledby="pageTitle">
+     <div class="chat-area" id="chatArea"><div class="welcome" id="welcome"><img src="__ICON_URI__" alt="國立臺北大學校徽"><h1 data-ui-text="welcome">今天想做什麼？</h1><div class="welcome-actions" hidden><button class="quiet-button" id="focusChat" data-ui-text="startChat">聊聊想法</button><button class="quiet-button" id="openMaterials" data-ui-text="organize">整理素材</button></div></div></div>
+     <div class="composer-wrap"><div class="composer text-composer"><button type="button" id="chatAdd" class="composer-add" aria-label="新增素材" title="新增素材"><span data-icon="plus"></span></button><textarea id="chatInput" rows="1" placeholder="傳送訊息…" aria-label="聊天內容"></textarea><div class="composer-actions"><button type="button" id="chatMic" class="composer-mic" aria-label="開啟語音通話" title="開啟語音通話"><span data-icon="mic"></span></button><div class="composer-submit"><button type="button" id="chatVoice" class="composer-voice" aria-label="語音通話預覽" title="語音通話預覽"><span data-icon="voice"></span></button><button class="primary send" id="chatSend" title="送出訊息" aria-label="送出訊息"><span data-icon="up"></span></button></div></div></div></div>
+    </section>
+    <section id="taskPage" class="page" role="region" aria-labelledby="pageTitle" hidden>
+     <div class="task-scroll"><div class="task-heading"><span data-ui-text="materialPreview">素材預覽</span><span class="badge" id="previewBadge" hidden>2 份</span><button class="icon-btn" id="assetLibrary" aria-label="開啟素材清單" title="素材清單"><span data-ui-icon="panelLeft"></span></button></div><div class="preview-card"><div class="empty" id="empty"><span class="empty-icon" data-icon="folder"></span><button class="quiet-button" id="emptyImport" data-ui-text="openAssets">開啟素材清單</button></div><div class="files" id="files" hidden></div></div><p class="task-feedback" id="taskFeedback" aria-live="polite"></p><div class="confirmation" id="confirmation" hidden><span class="confirm-note" data-i18n="confirmNote">確認才搬</span><div class="confirm-actions"><button class="ghost" id="cancel" data-i18n="cancel">取消</button><button class="primary" id="confirm"><span data-i18n="confirm">確認</span><span data-icon="arrow"></span></button></div></div></div>
+     <div class="composer-wrap"><div class="composer text-composer"><button type="button" id="taskAdd" class="composer-add" aria-label="新增素材" title="新增素材"><span data-icon="plus"></span></button><textarea id="taskInput" rows="1" placeholder="描述整理需求…" aria-label="任務內容"></textarea><div class="composer-actions"><button type="button" id="taskMic" class="composer-mic" aria-label="開啟語音通話" title="開啟語音通話"><span data-icon="mic"></span></button><div class="composer-submit"><button type="button" id="taskVoice" class="composer-voice" aria-label="語音通話預覽" title="語音通話預覽"><span data-icon="voice"></span></button><button class="primary send" id="taskSend" title="產生分類預覽" aria-label="產生分類預覽"><span data-icon="up"></span></button></div></div></div></div>
+    </section>
+    <section id="callPage" class="page" role="region" aria-labelledby="pageTitle" hidden>
+     <div class="call-stage"><div class="call-avatar" id="callAvatar"><img src="__ICON_URI__" alt="國立臺北大學校徽"></div><p class="call-state" id="callState" role="status">通話預覽</p><span class="call-time" id="callTime">00:00</span><span class="call-mode-label" id="callModeLabel">聊天</span><div class="call-transcript" id="callTranscript" aria-live="polite"></div><p class="call-note" data-i18n="callNote">未啟用麥克風</p></div>
+     <div class="composer-wrap call-wrap"><div class="composer call-controls"><button class="call-button" id="callMute" disabled aria-pressed="false" aria-label="靜音示意" title="靜音示意"><span data-icon="mic"></span></button><button class="call-button call-toggle" id="callToggle" aria-label="開始通話示意" title="開始通話示意"><span data-icon="phone"></span></button><button class="call-button" id="callDemo" disabled aria-label="示範一句" title="示範一句"><span data-icon="play"></span></button></div></div>
+    </section>
+   </div>
+  </div>
+
+  <button class="library-scrim" id="libraryScrim" aria-label="收起清單" hidden tabindex="-1"></button>
+  <aside class="library-panel" id="libraryPanel" aria-labelledby="libraryTitle" aria-hidden="true" inert>
+   <div class="library-head"><h2 id="libraryTitle" tabindex="-1">聊天</h2><button class="icon-btn" id="libraryClose" aria-label="收起清單" title="收起清單"><span data-ui-icon="panelClose"></span></button></div>
+   <div class="library-body">
+    <section id="chatLibrary" class="library-section"><button class="library-link primary-link" id="goChat"><span data-icon="chat"></span><span data-ui-text="openChat">開啟聊天</span><span data-icon="arrow"></span></button><div class="library-group-label" data-ui-text="thisConversation">這段對話</div><div id="recentMessages" class="library-list"></div></section>
+    <section id="taskLibrary" class="library-section" hidden>
+     <div class="action-row"><button class="secondary" id="import"><span data-icon="plus"></span><span data-i18n="import">匯入</span></button><button class="secondary" id="demo"><span data-icon="files"></span><span data-i18n="demo">示範</span></button><input id="fileInput" type="file" accept=".png,.jpg,.jpeg,.webp,.txt,.md" multiple hidden></div>
+     <button class="library-link primary-link" id="goTask"><span data-icon="folder"></span><span data-ui-text="openTask">開啟任務</span><span data-icon="arrow"></span></button>
+     <div class="library-group-label"><span data-ui-text="materials">素材</span><div class="material-tools"><span class="count" id="fileCount"></span><button class="icon-btn" id="reset" hidden title="重設示範" aria-label="重設示範"><span data-ui-icon="refresh"></span></button></div></div>
+     <div id="assetList" class="library-list"></div>
+    </section>
+    <section id="callLibrary" class="library-section" hidden><button class="library-link primary-link" id="goCall"><span data-icon="phone"></span><span data-ui-text="openCall">開啟通話</span><span data-icon="arrow"></span></button><div class="library-group-label" data-ui-text="callMode">通話模式</div><div class="call-modes" role="group" aria-label="通話模式"><button id="callChatMode" aria-pressed="true"><span data-icon="chat"></span><span data-i18n="callChat">聊天</span></button><button id="callTaskMode" aria-pressed="false"><span data-icon="folder"></span><span data-i18n="callTask">交辦</span></button></div><div id="metricsSlot" class="metrics-slot"></div></section>
+    <section id="settingsLibrary" class="library-section" hidden><div class="setting-row"><span data-ui-text="appearance">外觀</span><button class="icon-btn" id="theme" title="切換深色模式" aria-label="切換深色模式"></button></div><div class="setting-row"><span id="languageValue">繁體中文</span><button class="icon-btn" id="language" title="English" aria-label="English"></button></div></section>
+   </div>
+  </aside>
+  <div id="compact" hidden><p class="state"><i></i><span data-i18n="ready">就緒</span></p><button id="open">開始</button><button id="collapse">收合</button></div>
+ </section>
+ <div class="restore" id="restore" hidden><span data-i18n="hidden">已隱藏</span><button class="secondary" id="restoreButton" data-i18n="restore">還原</button></div>
+ <div class="preview-note" hidden><span data-i18n="label">預覽</span></div>
+</main>
+<!-- CONTROLLERS -->
+<!-- FONT_LICENSE -->
+</body></html>

@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "planned_cases": 50,
+  "professor_requirements": 60,
+  "python_sources_checked": 17,
+  "local_links_checked": 88,
+  "models_started": false,
+  "physical_8GB_verified": false,
+  "errors": [],
+  "js_syntax_files": 9,
+  "js_syntax_failures": [],
+  "scope": "New repository offline source/document checks; no model run, no native UI interaction, no new EXE build",
+  "presentation": {
+    "slides": 24,
+    "all_slide_previews_inspected": true,
+    "native_PowerPoint_or_Google_Slides_open_tested": false,
+    "font": "Noto Sans TC",
+    "font_embedded": false,
+    "PPTX_sha256": "99b5cf6ffb3f493e7f9ff238e57f7403cf82109e45ec3b34dcdf14e18980e62b"
+  }
+}

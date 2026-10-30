@@ -1,0 +1,1 @@
+﻿participant_id,group,sequence,method,fixture_set,case_id,expected_files,actual_files,success,elapsed_s,retries,error_type,preview_shown,confirmation_clicked,unauthorized_operations,steps,asr_s,assistant_s,tts_s,end_to_first_audio_s,process_tree_peak_RSS_MiB,host_ram_GiB,CPU,notes
