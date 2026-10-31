@@ -10,9 +10,15 @@ MarVoiReflex 協助小型商家的社群行銷人員，以中文語音或文字�
 
 開發目標為 **Windows、CPU、8GB 記憶體、無獨顯**。目前已於 31.76GiB 記憶體主機完成 CPU 模式的特定技術檢查，8GB 實機驗證列於後續測試規劃。
 
-![MarVoiReflex 介面設計預覽](docs/images/app-ui-preview.png)
+## 操作展示
 
-介面設計預覽。桌面版採 WebView2 原生視窗，整合聊天、素材任務與語音互動。
+[![素材分類預覽，點擊開啟影片](docs/images/demo-material-preview.png)](docs/demo/MarVoiReflex-Material-Task-20261031.mp4)
+
+[觀看 MP4](docs/demo/MarVoiReflex-Material-Task-20261031.mp4)／[GitHub 影片下載](https://github.com/yo20ywork-max/MarVoiReflex/releases/tag/demo-20261031)／[操作紀錄](docs/demo.md)
+
+2026-10-31 實際操作 Windows App，輸入「整理本週的圖片與文案，先給我預覽。」系統列出兩份素材，經畫面確認後完成分類並逐檔驗證；上週文案與 CSV 保持原位。影片長約 3 分 42 秒，無聲、原速，保留操作與等待過程。
+
+展示採合成素材、中文文字輸入與 MiniCPM5-2B CPU 模式。8GB 實機與語音操作的測試狀態見[技術驗證紀錄](docs/testing/feasibility.md)。
 
 ## 功能狀態
 
@@ -37,7 +43,7 @@ MarVoiReflex 協助小型商家的社群行銷人員，以中文語音或文字�
 - [MVP 功能規格](docs/mvp-spec.md)／[系統架構與工作流程](docs/architecture.md)
 - [測試案例規劃](docs/testing/50-cases.md)／[CSV](docs/testing/50-cases.csv)
 - [使用者研究方法](docs/testing/user-study.md)／[需求訪談規劃](docs/interviews.md)
-- [商業模式畫布](docs/business-model.md)／[系統展示規劃](docs/demo.md)
+- [商業模式畫布](docs/business-model.md)／[系統展示與操作紀錄](docs/demo.md)
 - [團隊成員與分工](docs/team.md)／[16 週開發計畫](docs/roadmap.md)
 - [成果交付規劃](docs/deliverables.md)／[開發議題與里程碑](docs/github-tracking.md)
 

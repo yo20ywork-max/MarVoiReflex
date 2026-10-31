@@ -1,0 +1,107 @@
+{
+  "recorded_on": "2026-10-31",
+  "timezone": "Asia/Taipei",
+  "application": "MarVoiReflex.exe",
+  "mode": "native Windows App; text task; real local CPU model and MCP tools",
+  "source_revision": "57436ae38cd4bc4d22d12f656fbcf7b18e902103",
+  "exe_sha256": "6d6c2d79890254f402e12792fda957f5f43924201b18e8ce48a3def8ee0d1faf",
+  "model": {
+    "name": "MiniCPM5-2B-Q4_K_M",
+    "sha256": "ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd",
+    "device": "CPU",
+    "gpu_layers": 0
+  },
+  "hardware": {
+    "host_memory_GiB": 31.76,
+    "physical_8GB_verified": false
+  },
+  "input": "整理本週的圖片與文案，先給我預覽。",
+  "test_data": "Four synthetic files loaded through the built-in demonstration button.",
+  "preview_checks": {
+    "all_original_files_unchanged": true,
+    "original_count": 4,
+    "organized_directory_exists": false
+  },
+  "result": {
+    "files_before": 4,
+    "expected_moved": 2,
+    "actual_moved": 2,
+    "unselected_unchanged": true,
+    "all_contents_unchanged": true,
+    "items": [
+      {
+        "source": "晴日新品_20261025_上週文案.txt",
+        "destination": "晴日新品_20261025_上週文案.txt",
+        "expected_moved": false,
+        "destination_exists": true,
+        "content_unchanged": true,
+        "source_absent": false,
+        "bytes": 36,
+        "sha256_before": "67ea8f621b95f1da17856d7b9ec49335d3b8322c7d50988cc59860e7279567d5",
+        "sha256_after": "67ea8f621b95f1da17856d7b9ec49335d3b8322c7d50988cc59860e7279567d5"
+      },
+      {
+        "source": "晴日新品_20261026_主視覺.png",
+        "destination": "已整理/圖片/晴日新品_20261026_主視覺.png",
+        "expected_moved": true,
+        "destination_exists": true,
+        "content_unchanged": true,
+        "source_absent": true,
+        "bytes": 179,
+        "sha256_before": "907a03fb1e1da5757ee3c2608e2b69362d41747f92cf913f5f2ac312e0a07f84",
+        "sha256_after": "907a03fb1e1da5757ee3c2608e2b69362d41747f92cf913f5f2ac312e0a07f84"
+      },
+      {
+        "source": "晴日新品_20261026_促銷文案.txt",
+        "destination": "已整理/文案/晴日新品_20261026_促銷文案.txt",
+        "expected_moved": true,
+        "destination_exists": true,
+        "content_unchanged": true,
+        "source_absent": true,
+        "bytes": 71,
+        "sha256_before": "b524a23a92d72988685f69c2382ee1b83baf54d89a9bd05564c6086839fa4841",
+        "sha256_after": "b524a23a92d72988685f69c2382ee1b83baf54d89a9bd05564c6086839fa4841"
+      },
+      {
+        "source": "晴日新品_20261026_成效.csv",
+        "destination": "晴日新品_20261026_成效.csv",
+        "expected_moved": false,
+        "destination_exists": true,
+        "content_unchanged": true,
+        "source_absent": false,
+        "bytes": 18,
+        "sha256_before": "dc6665570719f75bf87090dd0a573499f19055bf8ca337766509fd7bd2629a96",
+        "sha256_after": "dc6665570719f75bf87090dd0a573499f19055bf8ca337766509fd7bd2629a96"
+      }
+    ]
+  },
+  "video": {
+    "repository_path": "docs/demo/MarVoiReflex-Material-Task-20261031.mp4",
+    "sha256": "17ee8648bd2e32d3a5ccd794a3d5ea114f1c460b3c05695e023e49ca1a7f36bf",
+    "bytes": 537495,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "width": 1104,
+          "height": 762,
+          "r_frame_rate": "15/1"
+        }
+      ],
+      "format": {
+        "duration": "222.333333",
+        "size": "537495"
+      }
+    },
+    "capture": "Continuous App-window region; original speed; no task or result splicing. White masks cover transparent outer corners.",
+    "audio": false
+  },
+  "verification": {
+    "full_video_decode_passed": true,
+    "sampled_frames_reviewed": true,
+    "demo_services_stopped": true
+  }
+}
