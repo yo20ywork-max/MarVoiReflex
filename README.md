@@ -2,7 +2,7 @@
 
 **結合 Agentic AI 的數位行銷工作流程語音助理**
 
-國立臺北大學｜數位行銷學士學位學程｜四年級畢業專題
+國立臺北大學｜數位行銷進修學士學位學程｜專題製作（N4072）
 
 指導教授：戴敏育
 
@@ -38,6 +38,7 @@ MarVoiReflex 協助小型商家的社群行銷人員，以中文語音或文字�
 ## 專案文件
 
 - [研究需求與驗收對照](docs/requirements.md)
+- [成果資料與驗證進度](docs/project-readiness.md)
 - [研究簡報 PPTX](docs/presentation/MarVoiReflex-Revision-20261031.pptx)／[簡報說明](docs/presentation/outline.md)
 - [研究定位與現有工具比較](docs/project-positioning.md)
 - [MVP 功能規格](docs/mvp-spec.md)／[系統架構與工作流程](docs/architecture.md)

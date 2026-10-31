@@ -1,10 +1,11 @@
 # 研究簡報說明
 
-本簡報共24頁，涵蓋研究定位、系統架構、素材處理流程、商業模式、測試方法與開發計畫。文字、表格與流程圖均可編輯。中英字體採Noto Sans TC。
+本簡報共24頁，涵蓋研究定位、系統架構、素材處理流程、商業模式、測試方法與開發計畫。文字、表格與流程圖均可編輯。中英字體採Noto Sans TC。已加入2026-10-31原生Windows App素材分類畫面與Demo B操作紀錄。
 
 ## 01 MarVoiReflex
 
 專題團隊名冊與分工，2026-10-31。前期紀錄：https://github.com/yo20ywork-max/GhostReflex_System/blob/main/README.md 。課程簡報指引第10、12頁：https://drive.google.com/file/d/1s6wkJIULlJHknoELVIFMi5XBsE9Rpsbp/view
+正式課程與學程名稱：戴敏育教學頁 https://web.ntpu.edu.tw/~myday/teaching.htm ，1151專題製作（N4072）、數位行銷進修學士學位學程4年級；查閱2026-10-31。
 
 ## 02 小型商家社群行銷的素材整理助理
 
@@ -42,9 +43,10 @@ src/voice_engine.py、runtime.py、intent.py、flow.py、atomic_move.py、backen
 
 研究需求、系統規格與專題指導紀錄，2026-10-31
 
-## 11 聊天與任務的獨立操作介面
+## 11 素材分類的實際操作畫面
 
-docs/images/app-ui-preview.png：HTML介面設計預覽。src/runtime.py：聊天模式獨立於檔案操作；原生視窗技術證據另見docs/evidence/native-compiled-20261031.json。
+docs/images/demo-material-preview.png：2026-10-31原生Windows App連續操作錄影中的素材分類預覽畫面。
+2026-10-31 實際原生App操作：docs/demo.md；docs/evidence/demo-material-task-20261031.json；影片 https://github.com/yo20ywork-max/MarVoiReflex/releases/tag/demo-20261031 。2份素材分類、2份保持原位；CPU模式，主機31.76GiB，8GB實機待驗證。
 
 ## 12 CPU 技術驗證與測試範圍
 
@@ -54,9 +56,10 @@ docs/evidence/native-compiled-20261031.json；既有native-compiled-20261031-071
 
 研究需求、系統規格與專題指導紀錄，2026-10-31
 
-## 14 系統展示規劃
+## 14 系統展示與操作影片
 
 研究需求、系統規格與專題指導紀錄，2026-10-31
+2026-10-31 實際原生App操作：docs/demo.md；docs/evidence/demo-material-task-20261031.json；影片 https://github.com/yo20ywork-max/MarVoiReflex/releases/tag/demo-20261031 。2份素材分類、2份保持原位；CPU模式，主機31.76GiB，8GB實機待驗證。
 
 ## 15 測試案例規劃
 
@@ -81,10 +84,12 @@ docs/evidence/native-compiled-20261031.json；既有native-compiled-20261031-071
 ## 20 團隊成員與分工
 
 來源：https://github.com/yo20ywork-max/GhostReflex_System/blob/main/README.md ，blob SHA a3e5677f07a65d1f85faf8d9444fcdac56d6274a，查閱2026-10-31。團隊成員與分工依專題團隊確認資料。
+正式課程與學程名稱：戴敏育教學頁 https://web.ntpu.edu.tw/~myday/teaching.htm ，1151專題製作（N4072）、數位行銷進修學士學位學程4年級；查閱2026-10-31。
 
 ## 21 成果交付規劃
 
 研究需求、系統規格與專題指導紀錄，2026-10-31
+2026-10-31 實際原生App操作：docs/demo.md；docs/evidence/demo-material-task-20261031.json；影片 https://github.com/yo20ywork-max/MarVoiReflex/releases/tag/demo-20261031 。2份素材分類、2份保持原位；CPU模式，主機31.76GiB，8GB實機待驗證。
 
 ## 22 參考資料 1／2
 
@@ -97,5 +102,6 @@ docs/evidence/native-compiled-20261031.json；既有native-compiled-20261031-071
 ## 24 Q&A
 
 專題團隊名冊與聯絡資訊。版面欄位參考課程簡報指引第11、13頁。
+正式課程與學程名稱：戴敏育教學頁 https://web.ntpu.edu.tw/~myday/teaching.htm ，1151專題製作（N4072）、數位行銷進修學士學位學程4年級；查閱2026-10-31。
 
-字型未內嵌於PPTX；裝置可安裝Google Fonts官方Noto Sans TC版本。檔案已完成結構與渲染檢查；Microsoft PowerPoint及Google Slides的實際開啟驗證列於後續作業。
+字型未內嵌於PPTX；裝置可安裝Google Fonts官方Noto Sans TC版本。Microsoft PowerPoint實際開啟與Google Slides轉換的呈現依各應用程式另行確認。

@@ -14,4 +14,8 @@
 10. 國立臺北大學（未標示）。[校方SVG識別圖](https://new.ntpu.edu.tw/assets/logo/ntpu.svg)。原圖未改形，權利屬校方。
 11. Google Fonts（未標示）。Noto Sans TC，SIL Open Font License；文字授權見ui/NotoSansTC-OFL.txt。
 
+12. 國立臺北大學資訊管理研究所（未標示）。[師資陣容](https://www.mis.ntpu.edu.tw/professor/)。指導教授Email核對來源。
+13. 戴敏育（2026）。[115學年度第1學期課程資訊](https://web.ntpu.edu.tw/~myday/teaching.htm)。專題製作N4072、正式學程名稱。
+14. MarVoiReflex專題團隊（2026）。[素材整理操作展示](https://github.com/yo20ywork-max/MarVoiReflex/releases/tag/demo-20261031)。2026-10-31原生Windows App錄影，操作證據見docs/evidence/demo-material-task-20261031.json。
+
 工程驗證紀錄：docs/evidence/native-compiled-20261031.json（既有打包版17項特定檢查），適用範圍為工程驗證。使用者研究及8GB實機驗證另列於研究規劃。
