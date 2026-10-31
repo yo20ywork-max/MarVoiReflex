@@ -10,6 +10,18 @@ MarVoiReflex 協助小型商家的社群行銷人員，以中文語音或文字�
 
 開發目標為 **Windows、CPU、8GB 記憶體、無獨顯**。目前已於 31.76GiB 記憶體主機完成 CPU 模式的特定技術檢查，8GB 實機驗證列於後續測試規劃。
 
+## 下載與啟動
+
+**[下載 Windows 自動下載工具（CMD）](https://github.com/yo20ywork-max/MarVoiReflex/releases/download/v0.1.0-preview-20261031/MarVoiReflex-Download-Windows.cmd)** ／ [發行頁面與手動下載](https://github.com/yo20ywork-max/MarVoiReflex/releases/tag/v0.1.0-preview-20261031)
+
+1. 下載並雙擊 `MarVoiReflex-Download-Windows.cmd`。工具會下載 App 與模型、核對校驗碼並解壓縮，合計下載約 2.25GB。
+2. 到使用者的 `Downloads\MarVoiReflex-20261031\MarVoiReflex` 資料夾，雙擊 `MarVoiReflex.exe`。
+3. 進入任務畫面，按「示範」建立素材，再輸入「整理本週圖片與文案，先預覽」。檢查清單後，按畫面的「確認」執行。
+
+這是免安裝版。下載工具會把本機模型與執行元件放到正確位置，不需另外安裝 Python、Node 或 CUDA。請保留程式旁的所有資料夾，並預留至少 6GB 磁碟空間。執行環境為 Windows 10/11 x64，需有 Microsoft Edge WebView2 Runtime 與 .NET Framework 4.8；語音回覆需 Windows 中文朗讀語音。環境準備與手動下載步驟見[使用指南](docs/user-guide.md)。
+
+完整 App 超過 GitHub 單檔上限，因此分成約 693MB 的 App ZIP 與約 1.56GB 的模型檔。兩份檔案都提供公開下載，無需 GitHub 帳號。GitHub 自動產生的 **Source code** 是開發用原始碼。此版使用 CPU，8GB 實機與跨電腦相容性驗證仍待完成。
+
 ## 操作展示
 
 [![素材分類預覽，點擊開啟影片](docs/images/demo-material-preview.png)](docs/demo/MarVoiReflex-Material-Task-20261031.mp4)
@@ -59,7 +71,7 @@ MarVoiReflex 協助小型商家的社群行銷人員，以中文語音或文字�
 
 ## 開發環境與啟動
 
-需要 Windows 11 x64、Python 3.12、WebView2，以及完整 CPU App 的執行資產，包括語言模型、ASR 模型、llama-server 與 Node／MCP。此倉庫提供程式碼與文件，執行資產另行準備。詳細步驟見[開發與打包說明](docs/development.md)。
+需要 Windows 11 x64、Python 3.12、WebView2，以及完整 CPU App 的執行資產，包括語言模型、ASR 模型、llama-server 與 Node／MCP。執行資產可從上方 Windows 發行檔案取得。詳細步驟見[開發與打包說明](docs/development.md)。
 
 在 PowerShell 切換至倉庫目錄後執行：
 
