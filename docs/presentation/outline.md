@@ -83,7 +83,7 @@ docs/evidence/native-compiled-20261031.json；既有native-compiled-20261031-071
 
 ## 20 團隊成員與分工
 
-來源：https://github.com/yo20ywork-max/GhostReflex_System/blob/main/README.md ，blob SHA a3e5677f07a65d1f85faf8d9444fcdac56d6274a，查閱2026-10-31。團隊成員與分工依專題團隊確認資料。
+來源：https://github.com/yo20ywork-max/GhostReflex_System/blob/main/README.md ，blob SHA a3e5677f07a65d1f85faf8d9444fcdac56d6274a，查閱2026-10-31。團隊成員與分工依專題團隊確認資料。四位組員的個人github.io皆尚未建立；照片與專題網站待補。
 正式課程與學程名稱：戴敏育教學頁 https://web.ntpu.edu.tw/~myday/teaching.htm ，1151專題製作（N4072）、數位行銷進修學士學位學程4年級；查閱2026-10-31。
 
 ## 21 成果交付規劃

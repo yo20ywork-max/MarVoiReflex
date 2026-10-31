@@ -42,14 +42,14 @@ id,requirement,document,specification_status,implementation_status,verification_
 5.1.1,每週專案會議與工作追蹤,docs/meetings/TEMPLATE.md,規格已建立,會議紀錄範本已建立,依對應文件所列驗收條件與測試紀錄
 5.1.2,GitHub版本、議題與里程碑管理,CONTRIBUTING.md,規格已建立,倉庫、議題與里程碑已建立,依對應文件所列驗收條件與測試紀錄
 5.1.3,雙週可展示成果,docs/roadmap.md,規格已建立,規劃／待執行,依對應文件所列驗收條件與測試紀錄
-6.1.1,封面、團隊、關鍵字與網站資訊,docs/presentation/outline.md,規格已建立,課程、聯絡與5關鍵字已補；照片、個人網站與專題網站待提供,依對應文件所列驗收條件與測試紀錄
-6.1.2,Q&A及專題識別資訊,docs/presentation/outline.md,規格已建立,Q&A與專題識別已建立；照片與網站待補,依對應文件所列驗收條件與測試紀錄
+6.1.1,封面、團隊、關鍵字與網站資訊,docs/presentation/outline.md,規格已建立,課程、聯絡與5關鍵字已補；個人網站尚未建立；照片及專題網站待提供,依對應文件所列驗收條件與測試紀錄
+6.1.2,Q&A及專題識別資訊,docs/presentation/outline.md,規格已建立,Q&A與專題識別已建立；個人網站尚未建立；照片及專題網站待補,依對應文件所列驗收條件與測試紀錄
 6.1.3,獨立參考文獻與一致引用格式,docs/presentation/outline.md,規格已建立,簡報與聯絡表已建立；照片及個人網站待更新,依對應文件所列驗收條件與測試紀錄
 6.2.1,各頁核心訊息與內容安排,docs/presentation/outline.md,規格已建立,已有介面預覽與工程驗證紀錄,依對應文件所列驗收條件與測試紀錄
 6.2.2,架構、流程、BMC與研究方法圖表,docs/presentation/outline.md,規格已建立,已有介面預覽與工程驗證紀錄,依對應文件所列驗收條件與測試紀錄
 6.2.3,介面、任務範例與測試紀錄,docs/presentation/outline.md,規格已建立,已加入實際Windows App分類畫面與Demo B影片證據,docs/demo.md；docs/evidence/demo-material-task-20261031.json
 6.2.4,中英字體、圖表、頁碼及術語一致性,docs/presentation/outline.md,規格已建立,已有介面預覽與工程驗證紀錄,依對應文件所列驗收條件與測試紀錄
-7.1,研究簡報與預期貢獻,docs/presentation/outline.md,規格已建立,24頁簡報已更新；成員照片與網站待補,依對應文件所列驗收條件與測試紀錄
+7.1,研究簡報與預期貢獻,docs/presentation/outline.md,規格已建立,24頁簡報已更新；個人網站尚未建立；成員照片與專題網站待補,依對應文件所列驗收條件與測試紀錄
 7.2,應用情境與MVP規格,docs/mvp-spec.md,規格已建立,功能規格已建立,依對應文件所列驗收條件與測試紀錄
 7.3,系統圖與技術可行性資料,docs/architecture.md,規格已建立,架構、17項技術紀錄與Demo B證據已整理；8GB待驗證,依對應文件所列驗收條件與測試紀錄
 7.4,可操作原型,docs/demo.md,規格已建立,文字分類原型已實際操作與錄影；2份搬移內容核對通過,docs/demo.md；docs/evidence/demo-material-task-20261031.json
